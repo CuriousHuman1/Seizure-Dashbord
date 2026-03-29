@@ -86,4 +86,4 @@ while True:
         metrics_placeholder.warning("⏳ Waiting for data from the ESP32 Wearable...")
 
     # Sleep for 0.25 seconds (4 times per second updates)
-    time.sleep(1)
+    time.sleep(2)
