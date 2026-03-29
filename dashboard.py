@@ -70,7 +70,7 @@ while True:
             st.line_chart(df[['spo2']], color="#0099ff")
             
             st.subheader("📳 Motion Magnitude (m/s²)")
-            st.area_chart(df[['motion']], color="#ffaa00")
+            st.line_chart(df[['motion']], color="#ffaa00")
             
             st.caption(f"Last updated: {datetime.now().strftime('%H:%M:%S')}")
             
